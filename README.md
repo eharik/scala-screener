@@ -13,7 +13,7 @@ The development team will use this assessment to determine if you may be a suita
 3. Complete the implementation of the `Screener` object so it prints relevant information for the file like the text below:
 
 ```
-Stats for file: DeclarationOfIndependance.txt:
+Stats for file: DoI.txt:
   Line Count: 41
   Total Word Count: 1335
   Count for 'Power': 7
