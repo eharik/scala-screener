@@ -8,9 +8,9 @@ The development team will use this assessment to determine if you may be a suita
 
 ## Instructions
 
-1) Complete implementation of the `io.oseberg.interview.FileStats` class.  At a minimum implement a solution to the `lineCount`, `totalWordCount`, and `wordCount` functions.  For you overachievers, take a stab at `wordFreq` as well.
-2) Complete implementation of the test spec in `src/test/scala/io.oseberg/interview/ScreenerSpec.scala`.  When you run `sbt test` the first three tests should pass.
-3) Complete the implementation of the `Screener` object so it prints relevant information for the file like the text below:
+1. Complete implementation of the `io.oseberg.interview.FileStats` class.  At a minimum implement a solution to the `lineCount`, `totalWordCount`, and `wordCount` functions.  For you overachievers, take a stab at `wordFreq` as well.
+2. Complete implementation of the test spec in `src/test/scala/io.oseberg/interview/ScreenerSpec.scala`.  When you run `sbt test` the first three tests should pass.
+3. Complete the implementation of the `Screener` object so it prints relevant information for the file like the text below:
 
 ```
 Stats for file: DeclarationOfIndependance.txt:
