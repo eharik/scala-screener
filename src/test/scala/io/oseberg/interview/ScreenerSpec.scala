@@ -23,6 +23,5 @@ class ScreenerSpec extends FlatSpec with Matchers {
 
   it must "count occurences of a specific word in a file" in (pending)
 
-  // bonus!
   it must "calculate the frequency of all words in a file" in (pending)
 }

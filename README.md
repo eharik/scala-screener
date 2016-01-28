@@ -8,13 +8,14 @@ The development team will use this assessment to determine if you may be a suita
 
 ## Instructions
 
-1. Complete implementation of the `io.oseberg.interview.FileStats` class.  At a minimum implement a solution to the `lineCount`, `totalWordCount`, and `wordCount` functions.  For you overachievers, take a stab at `wordFreq` as well.
-2. Complete implementation of the test spec in `src/test/scala/io.oseberg/interview/ScreenerSpec.scala`.  When you run `sbt test` the first three tests should pass.
-3. Complete the implementation of the `Screener` object so it prints relevant information for the file like the text below:
+1. Complete implementation of the `io.oseberg.interview.FileStats` class.
+2. Complete implementation of the final two test specs in `src/test/scala/io.oseberg/interview/ScreenerSpec.scala`.  When you run `sbt test` all tests should be pasing
+3. Complete the implementation of the `Screener` object in `io.oseberg.interview.Screener`  so it prints relevant information for the file like the text below:
 
 ```
 Stats for file: DoI.txt:
   Line Count: 41
   Total Word Count: 1335
-  Count for 'Power': 7
+  Count for 'People': 10
+  Top Three Words by Freq: the, of, to
 ```

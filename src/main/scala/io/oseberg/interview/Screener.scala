@@ -17,10 +17,5 @@ class FileStats(source: BufferedSource) {
   def lineCount: Int = ???
   def totalWordCount: Int = ???
   def wordCount(word: Word): Int = ???
-
-  // bonus - recursive function to determine all word frequency
-  //@tailrec
-  def wordFreq(
-      buffer: BufferedSource,
-      freq: Map[String, Int]): Map[String, Int] = ???
+  def wordFreq(src: Source, freq: Map[String, Int]): Map[String, Int] = ???
 }
