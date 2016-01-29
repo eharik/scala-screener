@@ -1,7 +1,5 @@
 package io.oseberg.interview
 
-import java.io.File
-import scala.annotation.tailrec
 import scala.io._
 
 object Screener extends App {
@@ -17,5 +15,7 @@ class FileStats(source: BufferedSource) {
   def lineCount: Int = ???
   def totalWordCount: Int = ???
   def wordCount(word: Word): Int = ???
+
+  // this should be implemented recursively
   def wordFreq(src: Source, freq: Map[String, Int]): Map[String, Int] = ???
 }
