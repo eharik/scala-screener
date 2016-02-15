@@ -1,6 +1,6 @@
 # Oseberg Scala Screener
 
-Please complete the following and submit a PR for review.
+Please complete the following and submit source code and output from running `sbt test` and `sbt run` to dev.team@oseberg.io.
 
 You're welcome to use Internet resources in solving this problem, as long as they don't give you the solution. We just ask that you cite every source that you used. Also, please state with how much time you spent on this question. If you have any questions about this or would like to seek clarification, please contact us at dev.team@oseberg.io.
 
